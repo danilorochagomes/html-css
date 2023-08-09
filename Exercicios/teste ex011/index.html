@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Imagens dinâmicas Teste</title>
+</head>
+<body>
+    <h1>Testando o exercicio de imagem dinâmica em arquivo jpeg.</h1>
+    <p>primeiro passo a <mark style="background-color: rgb(91, 214, 138);">tag picture</mark> e depois a <mark style="background-color: darkturquoise;">tag img</mark> </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpeg">
+        <img src="imagens/imagem-g.jpg" alt="imagem teste">
+    </picture>
+    <h1>Teste com foto de skate</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/imagem-p.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem-m.jpg" type="image/jpeg">
+        <img src="imagem/imagem-g.jpg" alt="skateboard">
+    </picture>
+    <H1>Reproduzindo Áudios</H1>
+    <p>Vamos reproduzir um áudio mp3.</p>
+    <audio src="midia/Fine Dining - TrackTribe.mp3" controls autoplay></audio>
+
+    <h2>Revisando para não esquecer</h2>
+    <p>Uma bela foto de balões sobrevoando a cidade.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/balão-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/balão-m.jpg" type="image/jpg">
+        <img src="imagens/balão-g.jpg" alt="balões-capadócia">
+    </picture>
+    <p>
+        <audio src="midia/Confident Kurt - TrackTribe.mp3" controls ></audio>
+    </p>
+
+</body>
+</html>

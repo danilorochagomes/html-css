@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/android-chrome-512x512.png" type="image/x-icon">
+    <title>Resumo HTML - módulo 01</title>
+</head>
+<body>
+    <h1>Resumo módulo 01 - Curso em Vídeo</h1>
+    <h2>Vamos aqui nesta página tentar resumir um pouco do que foi estudado no módulo 01</h2>
+    <p>Parágrafos e quebras: "br"</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Natus eveniet ratione quisquam, eos harum animi, placeat ullam cupiditate iusto voluptatum impedit quos <br>ipsa ea nam veritatis mollitia accusamus a quae.</br></br>.</p>
+    <p>Síbolos e emojis em seu site:</p>
+    <p>&reg; &copy; &trade;</p>
+    <p>emojis:</p>
+    <p>estou muito feliz por estar estudando programação &#x1f60d;</p>
+    <p>apesar de não ser fácil eu vou conseguir &#x1f972;</p>
+    <h2>Negrito e Itálico do jeito certo</h2>
+    <p><strong>vamos primeiro testar o negrito, que na forma semântica correta, usando a semântica "strong"</strong></p>
+    <p><em>
+        <emma>Agora usando o itálico com a tag "em" (enfase)</emma>
+    </em>.</p>
+    <p>texto com palavras <del>excluídas</del>usando a tag "del"</p>
+    <p>e para inserir uma <ins>lacuna de espaço</ins> para preenchimento no texto usamos a tag "ins"</p>
+    <p>Sobrescrito 10<sup>2</sup> - usamos a tag"sup"</p>
+    <p>subriscrito H<SUB>2</SUB>O - usamos a tag "sub"</p>
+    <h2>CITAÇÕES</h2>
+    <P><strong>citações simples</strong></P>
+    <p>Como diz minha mãe: <q>O precavido morreu de velor.</q></p>
+    <p><strong>Citações completas</strong></p>
+    <p>Segundo Philip Kotler:
+        <blockquote cite="https://books.google.com.br/books/about/Administra%C3%A7%C3%A3o_de_marketing.html?hl=pt-BR&id=PO_EAAAACAAJ&redir_esc=y"> <em>A qualidade no atendimento não é apenas falar bem durante o atendimento e, sim deixar o cliente satisfeito com seus produtos e serviços prestados, ou seja, você tem que superar as expectativas do cliente, desde o atendimento até o produto final.</em></blockquote>
+    </p>
+    <p><UL><strong>para realizar uma abreviação envelopar a frase inserir a tag "abbr"</strong>
+        <li><abbr title="hypertext markup language">HTML</abbr></li>
+        <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+    </UL></p>
+    <h2>Links</h2>
+    <p>Inserindo links para acesso a sites.</p>
+    <p>Acesse <a href="https://www.incaper.es.gov.br" rel="external" target="_blank">aqui</a> o 
+        site do incaper</p>
+        <p><strong>Acessando links de uma mesma página</strong></p>
+        <p><a href="pag002.html" rel="next" target="_self">Acesse aqui</a> nossa página 02</p>
+    <h2>Imagens Dinâmicas</h2>
+    <p>Vamos inserir imagens que alteram o tamanho conforme a necessidade de quem está acessando.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem-m.jpg" type="image/jpg">
+        <img src="imagem/imagem-g.jpg" alt="imagem.jpeg">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/imagem2-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagem/imagem2-m.jpg" type="image/jpg">
+        <img src="imagem/imagem2-g.jpg" alt="imagem.jpeg">
+    </picture>
+    <h2>Inserindo audio em nosso site</h2>
+    <p>Veja abaixo um modelo de audio retirado da biblioteca do YouTube&reg;</p>
+    <audio src="midia/On The Rocks - TrackTribe.mp3" controls autoplay loop></audio>
+    <h2>Vamos agora inserir vídeos</h2>
+    <p>Vamos inserir vídeos nos principais formatos</p>
+    <p>video abaixo extraído do Youtube&reg;</p>
+    <p>Vamos apenas colar o código extraido</p>
+    <iframe width="700" height="350" src="https://www.youtube.com/embed/EsCenicV1Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <video controls loop>
+        <source src="midia/Pexels-Denys-Gromov-5921854-1920X1080-25Fps.mkv" type="video/mkv">
+        <source src="midia/Pexels-Denys-Gromov-5921854-1920X1080-25Fps.mp4" type="video/mp4">
+        <source src="midia/Pexels-Denys-Gromov-5921854-1920X1080-25Fps.webm" type="video/webm">
+        O seu navegador não é compatível com o formato do vídeo.
+    </video> 
+    <h2>Clique abaixo e escolha um dos vídeos</h2>
+    <picture>
+    <code>
+    <prev>
+    <a href="página03.html" target="_blank" rel="external
+    "><img src="imagens2/thumb-hardware.png" alt="#"></a>
+    <img src="imagens2/thumb-html.png" alt="#">
+    </prev>
+    </code>
+          </picture>
+            <picture>
+            <br>
+                <a href="https://www.youtube.com" target="_blank" rel="external"><img src="imagens2/thumb-js.png" alt="#"></a>
+                <img src="imagens2/thumb-python.png" alt="#">
+            </br>
+          </picture>
+
+    <h2>Finalização</h2>
+    <p>Bom pessoal finalizo aqui os conteúdos do módulo 01 do curso em vídeo, foi um grande passo de um começo!&#x1f60a;</p>
+    <img src="imagem/IMG_20220126_082214_116.150.novo.jpg" alt="Danilo Rocha Gomes">
+    <h2>Danilo Rocha Gomes</h2>
+    <p><code>Aspirante no mundo do <em>Front-end</em></code></p>
+    <p>Me segue ai nas minhas midias sociais</p>
+    <p><img src="favicon/icone-instagram.png" alt="#"><a href="https://www.instagram.com/danilo.gorcha" target="_blank" rel="external">Instagram</a></p> 
+    <p><img src="favicon/icone-twitter.png" alt="#"><a href="https://www.twitter.com/DaniloRocha_Dev" target="_blank" rel="external">Twitter</a></p>
+
+
+    
+
+
+</body>
+</html>

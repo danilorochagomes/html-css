@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes em CSS</title>
+    <style>
+        div{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            
+        }
+        div:hover{
+            color: red;
+            font-weight: bold;
+        }
+        div > p{
+         display: none;   
+        }
+        div:hover > p{
+            display: block;
+        }
+        p{
+            color: yellow;
+            background-color: red;
+            font-weight: bold;
+            width: 300px;
+           
+            }
+        #ex02{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            color: black;
+        }
+                               
+        
+        #ex02 > p{
+            display: none;
+
+        }
+        #ex02:hover > p{
+            display: block;
+        }
+        #p02{
+            font-size: 2em;
+            color: white;
+            background-color: blueviolet;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio 01</h1>
+    <div>
+        Vamos treinar a pseudo classe ":" passe o mouse aqui.
+        <p>Olá, gente!</p>
+        <hr>
+    </div>
+    <h1>Exercicio 2</h1>
+    <div id="ex02">
+        Usando a classe "id" para diferenciar as divs. Vou fazer o mesmo exercicio anterior usando a classe id.
+        <p id="p02">Olá gente!</p>
+    </div>
+    
+</body>
+</html>

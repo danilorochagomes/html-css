@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags em HTML5</title>
+    <style>
+        body{
+            background-color: rgb(107, 164, 182);
+        
+        }
+        nav{
+            background-color: lightgrey;
+            padding: 10px;
+            color: black;
+            text-align: right;
+            
+                                
+            
+            }
+        h1{
+            text-align: center;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            
+                      
+            
+        }
+        div{
+            display: none;
+        }
+        section{
+            background-color: lightgrey;
+            text-align: justify;
+            padding: 10px;
+            border: 3px solid black;
+            margin: 10px;
+        } 
+        p{
+            display: none;
+        }
+               
+        a:hover{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+               
+
+        footer{
+            background-color: lightgrey;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 3px solid black;
+            margin: 0px;
+        }
+        #obrigado{
+            text-align: center;
+            font-size: 2em;
+            color: black;
+        }
+        header{
+            border: 3px solid black;
+            
+        }
+        nav > a{
+            margin-left: 20px;
+        }
+        #menu > p{
+            background-color: lightgrey;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+        #menu:hover > p{
+            
+            width: auto;
+            display:block;
+        }
+        
+        
+        
+
+                                                 
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Noticias</a>
+            <a href="#" id="menu">Clubes 
+            <p>Flamengo</p>
+            <p>Vasco</p>
+            <p>Fluminenes</p>
+            <p>Botafogo</p>
+            </a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>    
+    <main>
+        <h1>
+            Olá, Mundo!
+        </h1>
+        <section>
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, doloribus neque nam exercitationem beatae explicabo incidunt error dolores ratione.
+                <aside><img src="#" alt="#"></aside>        
+            </article>
+        </section>
+        <section>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae delectus, voluptatum odio dicta nam quod quos commodi quaerat dolorum fuga aliquam ducimus reprehenderit ipsum modi id, ipsam doloremque suscipit dolorem!
+                <aside><img src="#" alt="#"></aside>
+            </article>
+        </section>
+        <h2 id="obrigado">Muito obrigado!</h2>        
+    </main>
+    <footer>
+        Todos os direitos reservado a @aprendendoaprogramar.com
+    </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+    background-color: #5ecec4f5; 
+    
+    }
+    main{
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        width: 600px;
+        background-color: white;
+        box-shadow: 3px 3px 3px;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: aliceblue;
+        background-color: black;
+    }
+    h2{
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+    
+    }

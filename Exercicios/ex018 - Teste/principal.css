@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+       
+    main{
+        padding: 20px;
+        margin: auto;
+        border-radius: 10px;
+        width: 500px;
+        text-align: center;
+        box-shadow: 5px 5px 5px #51476e;
+        background-color: rgb(255, 236, 131);
+        color: #1E192C
+    }
+h1{
+    font-family: 'Amatic SC', cursive;
+    
+   
+    
+}
+h2{font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-weight: bolder;
+       
+}
+    
+p{
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 20px;
+    font-weight:bolder;
+    
+}
+body{
+    background-color: #2f2746;
+}

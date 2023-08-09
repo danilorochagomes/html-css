@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #48429b;
+    color: aliceblue;
+}
+h1#principal {
+    text-align: center;
+    background-color: yellow;
+    color:rgb(72, 66, 155);   
+    
+}
+h2{
+    color: rgb(242, 242, 248);
+    font-weight: lighter;
+}
+.italico{
+    font-style: italic;
+    font-weight: lighter;
+  
+}
+div:hover{
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+    font-size: 1em;
+    font-weight: lighter;
+        
+}
+
+div > p {
+    display: none;
+    
+}
+
+div:hover > p{
+    display: block;
+    background-color: #73429b;
+    width: 300px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: lighter;
+}
+div{
+    font-family: 'Poppins', sans-serif;
+}
+
