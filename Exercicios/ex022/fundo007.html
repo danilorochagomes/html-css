@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fundo 007</title>
+    <title>Alinhamento vertical</title>
+    <style>
+        #conteiner{
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+            position: relative;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            
+
+        }
+        #conteudo{
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            position: absolute;
+            left: 250px;
+            top: 150px;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            transform: translate(1%, 95%);
+            
+        }
+    </style>
 </head>
 <body>
-    <h1>Titulo 1</h1>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
