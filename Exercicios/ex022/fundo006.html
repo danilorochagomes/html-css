@@ -9,7 +9,7 @@
 
             /* 
             Short-hand - background
-            color > image > position > repeat > [size] > attachment
+            color > image > position > repeat > [size - ainda não está funcionando nos navegadores] > attachment
 
             height: 100%; 
             background-color: black;
@@ -19,15 +19,15 @@
             background-size: cover;
             */
             
-            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;        
-            background-size: cover;   
-                
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed; 
+            background-size: cover;       
+            
                      
 
         }
         main{
             background-color: aliceblue;
-            width: 350px;
+            max-width: 400px;
             padding: 15px;
             margin: auto;
             border: 1px solid black;
